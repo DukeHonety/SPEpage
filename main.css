@@ -29,19 +29,7 @@ body{
     font-family: 'Lobster Two', cursive;
     font-weight: normal;
 }
-.header div.menu{
-}
-.header div.menu li.menuItem{
-	display: inline-block;
-	list-style: none;
-	cursor: pointer;
-	padding: 10px;
-}
-.header div.menu li:hover{
-    background: #66a7c5;
-}
-.header div.menu li.active{
-	background: #66a7c5;
+.header div li.active{
 }
 .header div.menu li a{
 	padding: 10px;
@@ -275,9 +263,6 @@ div.smallDatas .infoPane .detail h2{
 }
 .padding-bottom-30{
 	padding-bottom: 30px;
-}
-.padding-bottom-20{
-	padding-bottom: 20px;
 }
 .padding-bottom-10{
 	padding-bottom: 10px;
