@@ -30,7 +30,6 @@ body{
     font-weight: normal;
 }
 .header div.menu{
-	float: right;
 }
 .header div.menu li.menuItem{
 	display: inline-block;
@@ -258,12 +257,6 @@ div.smallDatas .infoPane .detail h2{
 	width: 1000px;
 	margin: 0 auto;
 	color: #66a7c5;
-}
-.float-right{
-	float: right;
-}
-.float-left{
-	float: left;
 }
 .float-clean{
 	clear: both;
