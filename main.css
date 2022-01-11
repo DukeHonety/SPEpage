@@ -1,6 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+#foo{
+    color:red;
+}
+.tip{
+    color: green;
+}
+.bip{
+    color: black;
+}
+.bop{
+    color: yellow;
+}
+
 * {
 	margin: 0;
 	padding: 0;
@@ -26,7 +39,6 @@ body{
 }
 .header .logo h1{
 	font-size: 45px;
-    font-family: 'Lobster Two', cursive;
     font-weight: normal;
 }
 .header div li.active{
@@ -50,32 +62,22 @@ body{
     clear: both;
 }
 .page div.content div.primary{
-    width: 630px;
-    padding-right: 40px;
+    width: 650px;
     border-right: #f2f2f2 solid 1px;
-    float: left;
 }
 .page div.content div.sideBar{
     width: 290px;
-    float: right;
 }
 .page a.button{
 	text-decoration: none;
     display: block;
-    width: 107px;
-    height: 35px;
     background: #ee3233;
-    color: #ffffff;
-    font-family: 'Pontano Sans', sans-serif;
     line-height: 35px;
-    text-align: center;
-    font-size: 15px;
 }
 .page a.button:hover{
     background: #66a7c5;
 }
 div.topArticle{
-	padding-bottom: 60px;
     border-bottom: #f2f2f2 solid 1px;
 }
 div.smallDatas{
@@ -83,13 +85,6 @@ div.smallDatas{
     margin-bottom: 50px;
     border-bottom: #f2f2f2 solid 1px;
     overflow: hidden;
-}
-div.smallDatas div.smallArticle{
-	/*display: inline-block;*/
-}
-div.smallDatas .infoPane{
-    width: 300px;
-    /*margin-bottom: 50px;*/
 }
 div.smallDatas .infoPane .detail p{
     line-height: 18px;
