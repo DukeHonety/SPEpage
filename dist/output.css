@@ -510,6 +510,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   float: left;
 }
 
+.mr-30p {
+  margin-right: 30px;
+}
+
+.mr-20p {
+  margin-right: 20px;
+}
+
 .inline-block {
   display: inline-block;
 }
@@ -527,8 +535,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(102 167 197 / var(--tw-bg-opacity));
 }
 
-.p-2 {
-  padding: 0.5rem;
+.pb-30p {
+  padding-bottom: 30px;
 }
 
 * {
@@ -820,30 +828,6 @@ div.smallDatas .infoPane .detail h2{
 
 .float-clean{
   clear: both;
-}
-
-.margin-right-40{
-  margin-right: 20px;
-}
-
-.margin-right-30{
-  margin-right: 30px;
-}
-
-.margin-right-20{
-  margin-right: 20px;
-}
-
-.margin-right-10{
-  margin-right: 10px;
-}
-
-.padding-bottom-30{
-  padding-bottom: 30px;
-}
-
-.padding-bottom-10{
-  padding-bottom: 10px;
 }
 
 .hover\:bg-buttonH-50:hover {

@@ -1,12 +1,18 @@
+function range(start, end, increment = 1) {
+  const count = Math.floor((end - start + increment) / increment);
+  return Array(count).fill(0).map((_, idx) => start + idx * increment);
+}
+const maxPageSpace = 1200;
+
 module.exports = {
   content: ["./*.{html,js}"],
+  extend:{
+
+  },
   theme: {
     extend: {
       inset: {
         '3px': '3px',
-      },
-      margin: {
-        '20': '20px',
       },
     },
     fontFamily: {
@@ -23,6 +29,9 @@ module.exports = {
         300: '#008F89',
         400: '#00857F',
       },
+    },
+    spacing: {
+      ...range(0, 100, 10).reduce((merged, f)=>({...merged, [`${f}p`]: `${f}px`}), {})
     },
     container: {
     },
