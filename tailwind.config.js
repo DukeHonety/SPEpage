@@ -14,6 +14,9 @@ module.exports = {
       inset: {
         '3px': '3px',
       },
+      spacing{
+        '1px': '1px',
+      }
     },
     fontFamily: {
       pontano: ['Pontano Sans', 'sans-serif'],
@@ -30,10 +33,16 @@ module.exports = {
         400: '#00857F',
       },
     },
+    fontSize: {
+      ...range(5, 140).reduce((merged, f) => ({ ...merged, [f]: `${f}px`}), {})
+    },
     spacing: {
-      ...range(0, 100, 10).reduce((merged, f)=>({...merged, [`${f}p`]: `${f}px`}), {})
+      'spaneW': '300px',
+      'infoBtnW': '107px',
+      ...range(0, 100, 10).reduce((merged, f)=>({...merged, [`${f}p`]: `${f}px`}), {}),
     },
     container: {
+
     },
   },
   plugins: [],

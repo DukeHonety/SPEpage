@@ -510,6 +510,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   float: left;
 }
 
+.mr-40p {
+  margin-right: 40px;
+}
+
 .mr-30p {
   margin-right: 30px;
 }
@@ -518,8 +522,20 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: 20px;
 }
 
+.mt-30p {
+  margin-top: 30px;
+}
+
 .inline-block {
   display: inline-block;
+}
+
+.w-infoBtnW {
+  width: 107px;
+}
+
+.w-spaneW {
+  width: 300px;
 }
 
 .cursor-pointer {
@@ -535,8 +551,44 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(102 167 197 / var(--tw-bg-opacity));
 }
 
+.pb-60p {
+  padding-bottom: 60px;
+}
+
 .pb-30p {
   padding-bottom: 30px;
+}
+
+.pb-20p {
+  padding-bottom: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.font-lobster2 {
+  font-family: Lobster Two, cursive;
+}
+
+.text-15 {
+  font-size: 15px;
+}
+
+#foo{
+  color:red;
+}
+
+.tip{
+  color: green;
+}
+
+.bip{
+  color: black;
+}
+
+.bop{
+  color: yellow;
 }
 
 * {
@@ -568,7 +620,6 @@ body{
 
 .header .logo h1{
   font-size: 45px;
-  font-family: 'Lobster Two', cursive;
   font-weight: normal;
 }
 
@@ -597,28 +648,19 @@ body{
 }
 
 .page div.content div.primary{
-  width: 630px;
-  padding-right: 40px;
+  width: 650px;
   border-right: #f2f2f2 solid 1px;
-  float: left;
 }
 
 .page div.content div.sideBar{
   width: 290px;
-  float: right;
 }
 
 .page a.button{
   text-decoration: none;
   display: block;
-  width: 107px;
-  height: 35px;
   background: #ee3233;
-  color: #ffffff;
-  font-family: 'Pontano Sans', sans-serif;
   line-height: 35px;
-  text-align: center;
-  font-size: 15px;
 }
 
 .page a.button:hover{
@@ -626,7 +668,6 @@ body{
 }
 
 div.topArticle{
-  padding-bottom: 60px;
   border-bottom: #f2f2f2 solid 1px;
 }
 
@@ -635,15 +676,6 @@ div.smallDatas{
   margin-bottom: 50px;
   border-bottom: #f2f2f2 solid 1px;
   overflow: hidden;
-}
-
-div.smallDatas div.smallArticle{
-  /*display: inline-block;*/
-}
-
-div.smallDatas .infoPane{
-  width: 300px;
-  /*margin-bottom: 50px;*/
 }
 
 div.smallDatas .infoPane .detail p{
