@@ -96,18 +96,9 @@ div.smallDatas .infoPane .detail h2{
 }
 
 .title{
-	font-size: 25px;
-    color: #243036;
-    font-family: 'Lobster Two', cursive;
-    font-weight: normal;
-    padding-bottom: 30px;
 }
-.linktitle{
-	font-size: 16px;
+.linktitle1{
 	line-height: 20px;
-    color: #66a7c5;
-    font-family: 'Pontano Sans', sans-serif;
-    font-weight: normal;
 }
 
 .page .sidebar{

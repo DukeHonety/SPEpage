@@ -14,9 +14,6 @@ module.exports = {
       inset: {
         '3px': '3px',
       },
-      spacing{
-        '1px': '1px',
-      }
     },
     fontFamily: {
       pontano: ['Pontano Sans', 'sans-serif'],
@@ -26,12 +23,13 @@ module.exports = {
       buttonH:{
         DEFAULT: 'transparent',
         50: '#66a7c5',
-        75: '#74D6D2',
-        100: '#07A39D',
-        200: '#009993',
-        300: '#008F89',
-        400: '#00857F',
       },
+      primary: {
+        DEFAULT: "#9b9e9a",
+        100: "#66a7c5",
+        200: "#243036",
+        300: "#f34041",
+      }
     },
     fontSize: {
       ...range(5, 140).reduce((merged, f) => ({ ...merged, [f]: `${f}px`}), {})
